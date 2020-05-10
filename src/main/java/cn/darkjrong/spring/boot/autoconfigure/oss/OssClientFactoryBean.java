@@ -49,7 +49,6 @@ public class OssClientFactoryBean implements FactoryBean<OSS>, InitializingBean,
         Assert.notNull(properties.getEndpoint(), "'endpoint' must be not null");
         Assert.notNull(properties.getAccessKeyId(), "'accessKeyId' must be not null");
         Assert.notNull(properties.getAccessKeySecret(), "'accessKeySecret' must be not null");
-        Assert.notNull(properties.getOpenIntranet(), "'openIntranet' must be not null");
 
         Integer openIntranet = properties.getOpenIntranet();
         if (null != openIntranet && openIntranet == 1) {
