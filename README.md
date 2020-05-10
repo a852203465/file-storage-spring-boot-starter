@@ -23,7 +23,7 @@ Aliyun OSS 配置参数(application.properties)  yml配置，必须配置enabled
     aliyun.oss.openIntranet=
 ```
 
-是否使用内外模式上传 
+是否使用内网模式上传 
 > openIntranet :     1: open，close: 0
 
 Fast DFS 配置参数(application.properties)  yml配置，必须配置enabled: true，否则默认false不起作用

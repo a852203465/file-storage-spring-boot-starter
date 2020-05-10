@@ -33,7 +33,7 @@ public class OssProperties {
     private String intranet;
 
     /**
-     *  是否使用内外模式上传    1: open，close: 0
+     *  是否使用内网模式上传    1: open，close: 0
      */
     private Integer openIntranet;
 
