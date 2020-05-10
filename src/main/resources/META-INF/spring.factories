@@ -1,0 +1,4 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    cn.darkjrong.spring.boot.autoconfigure.fdfs.FDfsAutoConfiguration,\
+    cn.darkjrong.spring.boot.autoconfigure.oss.OssAutoConfiguration
